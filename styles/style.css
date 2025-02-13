@@ -21,8 +21,9 @@ body {
 }
 
 .cabecalho {
-    display: flex;
-    padding: 2% 0% 2% 35%;
+    display:flex;
+    justify-content: center;
+    padding: 2% 0% 2% 0%;
     background-color: var(--cor-terceira);
 }
 
@@ -119,12 +120,16 @@ body {
 
 @media (max-width:1200px) {
     .cabecalho {
+        display: flex;
         padding: 2%;
-        justify-content: center;
     }
 
     .apresentacao__conteudo2 {
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .cabecalho__menu {
+        gap: 30px;
     }
 }
