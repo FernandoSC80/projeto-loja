@@ -116,3 +116,14 @@ body {
     background-color: var(--cor-terceira);
     padding: 1%
 }
+
+@media (max-width:1200px) {
+    .cabecalho {
+        padding: 2%;
+    }
+
+    .apresentacao__conteudo2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
